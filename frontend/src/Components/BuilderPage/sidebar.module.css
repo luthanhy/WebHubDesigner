@@ -1,0 +1,14 @@
+.itemList {
+    list-style-type: none; /* Bỏ dấu đầu dòng */
+    padding: 0; /* Bỏ padding cho ul */
+    margin: 0; /* Bỏ margin cho ul */
+}
+
+.item {
+    padding: 0.5rem 0; /* Padding cho từng item */
+    border-bottom: 1px solid #ccc; /* Đường viền dưới mỗi item */
+}
+
+.item:hover {
+    background-color: #e0e0e0; /* Màu nền khi hover */
+}

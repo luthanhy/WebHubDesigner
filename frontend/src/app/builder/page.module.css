@@ -1,0 +1,26 @@
+/* page.module.css */
+.pageContainer {
+    display: flex;
+    flex-direction: column; /* Sắp xếp theo chiều dọc */
+    min-height: 100vh; /* Đảm bảo chiều cao tối thiểu bằng 100% chiều cao viewport */
+}
+
+.mainContent {
+    display: flex; /* Sử dụng Flexbox cho nội dung chính */
+    flex: 1; /* Chiếm không gian còn lại giữa header và footer */
+}
+
+.sidebar {
+    width: 2%; /* Độ rộng của Sidebar */
+    background-color: #f0f0f0; /* Màu nền cho Sidebar */
+    padding: 1rem; /* Padding cho Sidebar */
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%; /* Độ rộng của Body */
+    padding: 1rem; /* Padding cho Body */
+    background-color: #fff; /* Màu nền cho Body */
+}

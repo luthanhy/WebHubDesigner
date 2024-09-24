@@ -1,0 +1,43 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between; /* Sắp xếp các phần tử ở hai bên */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 5vh; /* Chiều cao của header */
+    padding: 0 20px; /* Khoảng cách hai bên */
+    background-color: #f0f0f0;
+}
+
+.buttonGroup {
+    display: flex; /* Xếp các nút theo hàng ngang */
+}
+
+.ratioButton {
+    padding: 5px 10px;
+    margin: 0 10px; /* Khoảng cách giữa các button */
+    font-size: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ratioButton:hover {
+    background-color: #0056b3; /* Thay đổi màu khi hover */
+}
+
+.settingButton {
+    padding: 5px 10px;
+    font-size: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745; /* Màu nền cho nút setting */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.settingButton:hover {
+    background-color: #218838; /* Thay đổi màu khi hover */
+}
