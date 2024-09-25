@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import bodyStyle from './body.module.css';
-import Dialog from "../../Dialog/Dialog.js";
 interface BodyProps{
     message:string;
     styles: any;
@@ -27,11 +26,11 @@ const Body = ({message,styles}:BodyProps) => {
         <div style={getStyle(message)}>
             <div className={styles.body}>
             <button className={bodyStyle.btnOpenPopup} onClick={openDialog} >Thêm mới section</button>
-            <Dialog isOpen = {isOpen} onClose = {closeDialog}>
+            {/* <Dialog isOpen = {isOpen} onClose = {closeDialog}> */}
                 <h2>Dialog Title</h2>
                 <button onClick={closeDialog}>Đóng</button>
                 <p>Nội dung của Dialog.</p>
-            </Dialog>
+            {/* </Dialog> */}
         </div>
         </div>
        

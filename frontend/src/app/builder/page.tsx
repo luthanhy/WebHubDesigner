@@ -16,7 +16,7 @@ const Page = () => {
                 <SideBar styles={styles}/>
                 <Body message={message} styles={styles} />
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }
